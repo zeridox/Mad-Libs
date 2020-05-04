@@ -1,0 +1,146 @@
+*{
+    margin:0px;
+    padding:0px;
+    white-space: nowrap;
+    font-family: 'Press Start 2P', cursive;
+    color:lime;
+
+}
+body{
+background-color:rgb(30, 23, 41);
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color:lime;
+    font-size: 3vw;
+}
+p{
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+}
+#subject, #verb, #noun{
+    width:fit-content;
+    height:auto;
+    margin:auto 5px;
+    display:inline-block;
+    color:lime;
+
+}
+button{
+    width:100px;
+    height:50px;
+    border:1px solid lime;
+    background-color: transparent;
+    outline: lime;
+    cursor: pointer;
+}
+input{
+    border:none;
+    width:100%;
+    height:50px;
+    background-color: transparent;
+    font-size:12px;
+    border:1px solid lime;
+    
+
+}
+input:focus{
+    border:none;
+    outline: none;
+    border-bottom:1px dashed lime;
+    padding-bottom:10px;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+
+}
+p#result{
+    width:1000px;
+    height:50px;
+    border:1px solid lime;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    align-items: center;
+}
+
+::placeholder{
+    color:limegreen;
+}
+.input-field{
+    width:30%;
+    height:auto;
+    padding:20px;
+    margin:10px 0px;
+    display: flex;
+    align-items:center;
+    
+    
+}
+.container{
+    width:100vw;
+    height:fit-content;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    vertical-align: top;
+    flex-grow:2;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:0px auto;
+    padding:30px 0px;
+    
+
+}
+.container:nth-child(1){
+    width:100vw;
+    height:fit-content;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    vertical-align: top;
+    flex-grow:2;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:0px auto;
+    padding:30px 0px;
+    margin-top:150px;
+    
+
+}
+.generate#first{
+    width:100vw;
+    height:10vh;
+    display: block;
+    overflow-anchor:none;
+
+    
+
+}
+.container-new{
+    width:fit-content;
+    height:fit-content;
+    font-size: 9px;
+
+}
+.container-sentence{
+    display:flex;
+    justify-content: center;
+    width:fit-content;
+    height:auto;
+    
+
+}
+
+@media only screen and (max-width:720px){
+    .input-field{
+        width:100%;
+        height:auto;
+        padding:20px;
+        margin:10px 0px;
+        display: flex;
+        align-items:center;
+        
+        
+    }
+
+}
