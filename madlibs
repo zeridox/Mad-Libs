@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type="text/css" href="mad-libs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <title>Mad Libs!</title>
+    
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>Generate a sentence</h1>
+    </div>
+    <div class="container">
+        
+        <div class="container-sentence" id="sentence">
+                <p id="r-adjective">User</p>
+                <p id="subject"></p>
+                <p id="r-clause"> is now online </p> 
+                <p id="noun"></p>
+                <p id="int"></p>
+                <p id="verb"></p>
+        </div>
+    </div>
+
+    <div class="container"> 
+        
+        <div class="input-field">
+            <input id="subject-input"  placeholder="What is your name?" type="text">
+        </div>
+        <div class="input-field">
+            <input id="noun-input" placeholder="Where do you want to go?" type="text">
+        </div>
+        <div class="input-field">
+            <input id="verb-input" placeholder="Verb" type="text" value="">
+        </div>
+        
+        <div class="input-field">
+            <input id="adjective-input"  placeholder="Describe yourself in one word" type="text">
+        </div>
+        <div class="input-field">
+            <input id="clause-input" placeholder="What are you up to?" type="text" value="">
+        </div>
+        <div class="input-field">
+            <input id="color-input" placeholder="color" type="color">
+        </div>
+
+     </div>
+
+     <div class="container">
+        <button class="submit" id="submit">Go!</button>
+     </div>
+     <div class="generate" id="first">
+    </div>
+    
+
+    <script src="mad-lib.js"></script>
+</body>
+</html>
